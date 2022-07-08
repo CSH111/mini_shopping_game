@@ -8,7 +8,12 @@ button {
   background-color: transparent;
   cursor: pointer;
 }
-
+button:hover {
+  transform: scale(1.05);
+}
+button:active {
+  transform: scale(0.95);
+}
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -16,7 +21,6 @@ button {
   background-color: rgba(95, 206, 169, 0.822);
   padding: 30px;
   width: 700px;
-  /* min-width: 300px; */
   margin: 30px auto;
   border-radius: 10px;
   height: 700px;
@@ -42,9 +46,6 @@ ul.indexBtn {
 ul.indexBtn button {
   margin: 5px;
   font-size: 20px;
-}
-ul.indexBtn button:active {
-  transform: scale(0.95);
 }
 ul.indexBtn button.color {
   border-radius: 5px;
@@ -74,9 +75,9 @@ ul.items li {
   background-color: rgb(255, 255, 255);
   padding: 5px;
 }
-ul.items li img {
-  margin: 0 10px;
-}
 ul.items li.hidden {
   display: none;
+}
+ul.items li img {
+  margin: 0 10px;
 }
