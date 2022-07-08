@@ -15,8 +15,8 @@ button {
   align-items: center;
   background-color: rgba(95, 206, 169, 0.822);
   padding: 30px;
-  width: 45%;
-  min-width: 300px;
+  width: 700px;
+  /* min-width: 300px; */
   margin: 30px auto;
   border-radius: 10px;
   height: 700px;
@@ -63,7 +63,7 @@ ul.indexBtn li:nth-child(6) button.color {
 
 /* items */
 ul.items {
-  width: 40%;
+  width: 60%;
   min-width: 300px;
 }
 ul.items li {
